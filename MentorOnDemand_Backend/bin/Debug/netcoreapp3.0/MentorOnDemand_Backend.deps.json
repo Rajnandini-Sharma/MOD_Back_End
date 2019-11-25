@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "MentorOnDemand_Backend/1.0.0": {
+        "runtime": {
+          "MentorOnDemand_Backend.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MentorOnDemand_Backend/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

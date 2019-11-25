@@ -1,0 +1,69 @@
+{
+  "ReRoutes": [
+    // Technology
+    {
+      "DownstreamPathTemplate": "/api/Technology/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1800
+        }
+      ],
+      "UpstreamPathTemplate": "/Technology/{catchAll}"
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Training/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1801
+        }
+      ],
+      "UpstreamPathTemplate": "/Training/{catchAll}"
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Student/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1802
+        }
+      ],
+      "UpstreamPathTemplate": "/Student/{catchAll}"
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Mentor/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1802
+        }
+      ],
+      "UpstreamPathTemplate": "/Mentor/{catchAll}"
+
+    },
+    {
+      "DownstreamPathTemplate": "/api/Payment/{catchAll}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1803
+        }
+      ],
+      "UpstreamPathTemplate": "/Payment/{catchAll}",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+
+  ],
+	"GlobalConfiguration": {
+		"BaseUrl": "http://localhost:1804"
+	}
+}
