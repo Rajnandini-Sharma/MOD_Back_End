@@ -19,8 +19,12 @@ namespace MOD.UserService.Repository
 
         public void Add(Mentor item)
         {
+            try { 
             _context.Mentor.Add(item);
             _context.SaveChanges();
+            }
+            catch (Exception)
+            { }
         }
 
         public void Delete(long id)
@@ -54,8 +58,14 @@ namespace MOD.UserService.Repository
             {
                 item.Mentor_active = !(item.Mentor_active);
             }
-            _context.Entry(item).State = EntityState.Modified;
+            if(item.Mentor_Avail == false)
+            {
+                item.Mentor_Avail = !(item.Mentor_Avail);
+            }
+           _context.Entry(item).State = EntityState.Modified;
             _context.SaveChanges();
         }
+            
+        }
+        
     }
-}

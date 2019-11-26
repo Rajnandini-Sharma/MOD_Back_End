@@ -19,8 +19,13 @@ namespace MOD.UserService.Repository
         }
         public void Add(Student item)
         {
-            _context.Student.Add(item);
-            _context.SaveChanges();
+            try
+            {
+                _context.Student.Add(item);
+                _context.SaveChanges();
+            }
+            catch(Exception)
+            { }
         }
 
         public void Delete(long id)

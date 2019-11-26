@@ -17,8 +17,13 @@ namespace MOD_TechnologyService.Repository
 
         public void Add(Technology item)
         {
-            _context.Technology.Add(item);
-            _context.SaveChanges();
+            try
+            {
+                _context.Technology.Add(item);
+                _context.SaveChanges();
+            }
+            catch (Exception)
+            { }
         }
 
         public void Delete(long id)

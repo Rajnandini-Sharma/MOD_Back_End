@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\XUnitTestProject\\XUnitTestProject.csproj": {}
+    "E:\\MOD_Back_End\\XUnitTestProject\\XUnitTestProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_AuthenticationService\\MOD_AuthenticationService.csproj": {
+    "E:\\MOD_Back_End\\MOD_AuthenticationService\\MOD_AuthenticationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_AuthenticationService\\MOD_AuthenticationService.csproj",
+        "projectUniqueName": "E:\\MOD_Back_End\\MOD_AuthenticationService\\MOD_AuthenticationService.csproj",
         "projectName": "MOD_AuthenticationService",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_AuthenticationService\\MOD_AuthenticationService.csproj",
+        "projectPath": "E:\\MOD_Back_End\\MOD_AuthenticationService\\MOD_AuthenticationService.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_AuthenticationService\\obj\\",
+        "outputPath": "E:\\MOD_Back_End\\MOD_AuthenticationService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,6 +60,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
             }
           },
           "imports": [
@@ -84,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_PaymentService\\MOD_PaymentService.csproj": {
+    "E:\\MOD_Back_End\\MOD_PaymentService\\MOD_PaymentService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_PaymentService\\MOD_PaymentService.csproj",
+        "projectUniqueName": "E:\\MOD_Back_End\\MOD_PaymentService\\MOD_PaymentService.csproj",
         "projectName": "MOD_PaymentService",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_PaymentService\\MOD_PaymentService.csproj",
+        "projectPath": "E:\\MOD_Back_End\\MOD_PaymentService\\MOD_PaymentService.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_PaymentService\\obj\\",
+        "outputPath": "E:\\MOD_Back_End\\MOD_PaymentService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -137,6 +141,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.5, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -164,14 +172,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_TechnologyService\\MOD_TechnologyService.csproj": {
+    "E:\\MOD_Back_End\\MOD_TechnologyService\\MOD_TechnologyService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_TechnologyService\\MOD_TechnologyService.csproj",
+        "projectUniqueName": "E:\\MOD_Back_End\\MOD_TechnologyService\\MOD_TechnologyService.csproj",
         "projectName": "MOD_TechnologyService",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_TechnologyService\\MOD_TechnologyService.csproj",
+        "projectPath": "E:\\MOD_Back_End\\MOD_TechnologyService\\MOD_TechnologyService.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_TechnologyService\\obj\\",
+        "outputPath": "E:\\MOD_Back_End\\MOD_TechnologyService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -217,6 +225,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.5, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -244,14 +256,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_TrainingService\\MOD_TrainingService.csproj": {
+    "E:\\MOD_Back_End\\MOD_TrainingService\\MOD_TrainingService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_TrainingService\\MOD_TrainingService.csproj",
+        "projectUniqueName": "E:\\MOD_Back_End\\MOD_TrainingService\\MOD_TrainingService.csproj",
         "projectName": "MOD_TrainingService",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_TrainingService\\MOD_TrainingService.csproj",
+        "projectPath": "E:\\MOD_Back_End\\MOD_TrainingService\\MOD_TrainingService.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_TrainingService\\obj\\",
+        "outputPath": "E:\\MOD_Back_End\\MOD_TrainingService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -297,6 +309,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.5, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -324,14 +340,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_UserService\\MOD_UserService.csproj": {
+    "E:\\MOD_Back_End\\MOD_UserService\\MOD_UserService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_UserService\\MOD_UserService.csproj",
+        "projectUniqueName": "E:\\MOD_Back_End\\MOD_UserService\\MOD_UserService.csproj",
         "projectName": "MOD_UserService",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_UserService\\MOD_UserService.csproj",
+        "projectPath": "E:\\MOD_Back_End\\MOD_UserService\\MOD_UserService.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_UserService\\obj\\",
+        "outputPath": "E:\\MOD_Back_End\\MOD_UserService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -377,6 +393,10 @@
               "target": "Package",
               "version": "[3.0.0, )"
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.5, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -404,14 +424,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\XUnitTestProject\\XUnitTestProject.csproj": {
+    "E:\\MOD_Back_End\\XUnitTestProject\\XUnitTestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\XUnitTestProject\\XUnitTestProject.csproj",
+        "projectUniqueName": "E:\\MOD_Back_End\\XUnitTestProject\\XUnitTestProject.csproj",
         "projectName": "XUnitTestProject",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\XUnitTestProject\\XUnitTestProject.csproj",
+        "projectPath": "E:\\MOD_Back_End\\XUnitTestProject\\XUnitTestProject.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\XUnitTestProject\\obj\\",
+        "outputPath": "E:\\MOD_Back_End\\XUnitTestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -428,20 +448,20 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_AuthenticationService\\MOD_AuthenticationService.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_AuthenticationService\\MOD_AuthenticationService.csproj"
+              "E:\\MOD_Back_End\\MOD_AuthenticationService\\MOD_AuthenticationService.csproj": {
+                "projectPath": "E:\\MOD_Back_End\\MOD_AuthenticationService\\MOD_AuthenticationService.csproj"
               },
-              "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_PaymentService\\MOD_PaymentService.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_PaymentService\\MOD_PaymentService.csproj"
+              "E:\\MOD_Back_End\\MOD_PaymentService\\MOD_PaymentService.csproj": {
+                "projectPath": "E:\\MOD_Back_End\\MOD_PaymentService\\MOD_PaymentService.csproj"
               },
-              "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_TechnologyService\\MOD_TechnologyService.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_TechnologyService\\MOD_TechnologyService.csproj"
+              "E:\\MOD_Back_End\\MOD_TechnologyService\\MOD_TechnologyService.csproj": {
+                "projectPath": "E:\\MOD_Back_End\\MOD_TechnologyService\\MOD_TechnologyService.csproj"
               },
-              "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_TrainingService\\MOD_TrainingService.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_TrainingService\\MOD_TrainingService.csproj"
+              "E:\\MOD_Back_End\\MOD_TrainingService\\MOD_TrainingService.csproj": {
+                "projectPath": "E:\\MOD_Back_End\\MOD_TrainingService\\MOD_TrainingService.csproj"
               },
-              "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_UserService\\MOD_UserService.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MOD_UserService\\MOD_UserService.csproj"
+              "E:\\MOD_Back_End\\MOD_UserService\\MOD_UserService.csproj": {
+                "projectPath": "E:\\MOD_Back_End\\MOD_UserService\\MOD_UserService.csproj"
               }
             }
           }

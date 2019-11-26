@@ -16,20 +16,35 @@ namespace MOD_AuthenticationService.Repository
         }
         public Mentor MentorLogin(string email, string pwd)
         {
-            return _context.Mentor.SingleOrDefault(data => data.Mentor_email == email&& data.Mentor_Password == pwd);
-            //if (obj != null)
-            //    return true;
-            //else
-            //    return false;
+            try
+            {
+                return _context.Mentor.SingleOrDefault(data => data.Mentor_email == email && data.Mentor_Password == pwd);
+                //if (obj != null)
+                //    return true;
+                //else
+                //    return false;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
         }
 
         public Student StudentLogin(string email, string pwd)
         {
-            return _context.Student.SingleOrDefault(data => data.Student_email == email && data.Student_Password == pwd);
-            //if (obj != null)
-            //    return true;
-            //else
-            //    return false;
+            try
+            {
+                return _context.Student.SingleOrDefault(data => data.Student_email == email && data.Student_Password == pwd);
+                //if (obj != null)
+                //    return true;
+                //else
+                //    return false;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
     }

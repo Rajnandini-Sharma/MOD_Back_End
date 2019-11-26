@@ -20,8 +20,13 @@ namespace MOD_PaymentService.Repository
 
         public void Add(Payment item)
         {
-            _context.Payment.Add(item);
-            _context.SaveChanges();
+            try
+            {
+                _context.Payment.Add(item);
+                _context.SaveChanges();
+            }
+            catch (Exception)
+            { }
         }
 
         public List<Payment> GetAll()

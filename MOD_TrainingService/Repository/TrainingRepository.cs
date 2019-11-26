@@ -16,8 +16,14 @@ namespace MOD_TrainingService.Repository
         }
         public void Trng_Add(Training item)
         {
-            _context.Training.Add(item);
-            _context.SaveChanges();
+            try
+            {
+                _context.Training.Add(item);
+                _context.SaveChanges();
+            }
+            catch (Exception)
+            { }
+
         }
 
         public void Delete(string id)

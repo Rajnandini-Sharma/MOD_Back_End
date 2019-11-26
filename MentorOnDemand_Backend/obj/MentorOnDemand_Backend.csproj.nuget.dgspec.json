@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MentorOnDemand_Backend\\MentorOnDemand_Backend.csproj": {}
+    "E:\\MOD_Back_End\\MentorOnDemand_Backend\\MentorOnDemand_Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MentorOnDemand_Backend\\MentorOnDemand_Backend.csproj": {
+    "E:\\MOD_Back_End\\MentorOnDemand_Backend\\MentorOnDemand_Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MentorOnDemand_Backend\\MentorOnDemand_Backend.csproj",
+        "projectUniqueName": "E:\\MOD_Back_End\\MentorOnDemand_Backend\\MentorOnDemand_Backend.csproj",
         "projectName": "MentorOnDemand_Backend",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MentorOnDemand_Backend\\MentorOnDemand_Backend.csproj",
+        "projectPath": "E:\\MOD_Back_End\\MentorOnDemand_Backend\\MentorOnDemand_Backend.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\MentorOnDemand_Backend\\MentorOnDemand_Backend\\obj\\",
+        "outputPath": "E:\\MOD_Back_End\\MentorOnDemand_Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
